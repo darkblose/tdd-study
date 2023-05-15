@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Table(name = "products")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
-class Product {
+public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
