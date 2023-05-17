@@ -1,7 +1,6 @@
 package com.study.tdd.productorderservice.order;
 
 import com.study.tdd.productorderservice.ApiTest;
-import com.study.tdd.productorderservice.product.OrderSteps;
 import com.study.tdd.productorderservice.product.ProductSteps;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;

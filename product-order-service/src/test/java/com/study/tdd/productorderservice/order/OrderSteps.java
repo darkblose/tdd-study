@@ -1,6 +1,5 @@
-package com.study.tdd.productorderservice.product;
+package com.study.tdd.productorderservice.order;
 
-import com.study.tdd.productorderservice.order.CreateOrderRequest;
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
