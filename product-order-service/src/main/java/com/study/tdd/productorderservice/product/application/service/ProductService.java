@@ -1,5 +1,7 @@
-package com.study.tdd.productorderservice.product;
+package com.study.tdd.productorderservice.product.application.service;
 
+import com.study.tdd.productorderservice.product.ProductPort;
+import com.study.tdd.productorderservice.product.domain.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,5 +1,6 @@
-package com.study.tdd.productorderservice.product;
+package com.study.tdd.productorderservice.product.application.service;
 
+import com.study.tdd.productorderservice.product.domain.DiscountPolicy;
 import org.springframework.util.Assert;
 
 record AddProductRequest(String name, int price, DiscountPolicy discountPolicy) {

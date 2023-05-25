@@ -1,5 +1,7 @@
-package com.study.tdd.productorderservice.product;
+package com.study.tdd.productorderservice.product.adapter;
 
+import com.study.tdd.productorderservice.product.application.port.ProductPort;
+import com.study.tdd.productorderservice.product.domain.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

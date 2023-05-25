@@ -1,4 +1,4 @@
-package com.study.tdd.productorderservice.product;
+package com.study.tdd.productorderservice.product.domain;
 
 public enum DiscountPolicy {
     NONE {

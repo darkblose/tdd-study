@@ -1,6 +1,6 @@
-package com.study.tdd.productorderservice.payment;
+package com.study.tdd.productorderservice.payment.domain;
 
-import com.study.tdd.productorderservice.order.Order;
+import com.study.tdd.productorderservice.order.domain.Order;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
