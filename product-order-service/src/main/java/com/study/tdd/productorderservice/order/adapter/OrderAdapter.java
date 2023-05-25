@@ -1,6 +1,6 @@
 package com.study.tdd.productorderservice.order.adapter;
 
-import com.study.tdd.productorderservice.order.OrderPort;
+import com.study.tdd.productorderservice.order.application.port.OrderPort;
 import com.study.tdd.productorderservice.order.domain.Order;
 import com.study.tdd.productorderservice.product.adapter.ProductRepository;
 import com.study.tdd.productorderservice.product.domain.Product;

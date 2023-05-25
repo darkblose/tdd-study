@@ -3,7 +3,7 @@ package com.study.tdd.productorderservice.payment.application.port;
 import com.study.tdd.productorderservice.order.domain.Order;
 import com.study.tdd.productorderservice.payment.domain.Payment;
 
-interface PaymentPort {
+public interface PaymentPort {
 
     Order getOrder(Long orderId);
 
