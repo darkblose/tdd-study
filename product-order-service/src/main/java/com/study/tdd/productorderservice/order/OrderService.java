@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/orders")
 @RequiredArgsConstructor
-public
-class OrderService {
+public class OrderService {
     private final OrderPort orderPort;
 
     @PostMapping
@@ -25,6 +24,6 @@ class OrderService {
         final Order order = new Order(product, request.quantity());
 
         orderPort.save(order);
-        return ResponseEntity.status(HttpStatus.CREATED).build();
+        return ResponseEntity.status(HttpStatus.OK).build();
     }
 }
