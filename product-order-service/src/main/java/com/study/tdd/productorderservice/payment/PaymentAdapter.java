@@ -4,7 +4,9 @@ import com.study.tdd.productorderservice.order.Order;
 import com.study.tdd.productorderservice.product.DiscountPolicy;
 import com.study.tdd.productorderservice.product.Product;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
+@Component
 @RequiredArgsConstructor
 class PaymentAdapter implements PaymentPort {
     private final PaymentGateway paymentGateway;

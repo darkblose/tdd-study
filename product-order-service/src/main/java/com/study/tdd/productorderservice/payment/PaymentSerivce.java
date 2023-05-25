@@ -2,7 +2,9 @@ package com.study.tdd.productorderservice.payment;
 
 import com.study.tdd.productorderservice.order.Order;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
+@Component
 @RequiredArgsConstructor
 class PaymentSerivce {
     private final PaymentPort paymentPort;
